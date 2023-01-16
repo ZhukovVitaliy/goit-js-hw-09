@@ -1,2 +1,0 @@
-const a=[{name:"Mango",active:!0},{name:"Poly",active:!1},{name:"Ajax",active:!0},{name:"Lux",active:!1}],e=(a,e,n)=>{n(a.map((a=>a.name===e?{...a,active:!a.active}:a)))},n=(a,e)=>new Promise((n=>{n(a.map((a=>a.name===e?{...a,active:!a.active}:a)))})),t=a=>console.table(a);e(a,"Mango",t),e(a,"Lux",t),n(a,"Mango").then(t),n(a,"Lux").then(t);
-//# sourceMappingURL=03-js-hw-11-promisification-02.0bfedbde.js.map
